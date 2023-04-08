@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Media;
 using System.Windows.Navigation;
 
-namespace CMusic
+namespace CMusic.Utils
 {
     class MusicLoader
     {

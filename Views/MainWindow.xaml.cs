@@ -13,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using CMusic.Utils;
+using CMusic.Views;
 
 namespace CMusic
 {
@@ -46,6 +48,11 @@ namespace CMusic
         private void MenuItemExit_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void MenuItemVersion_Click(object sender, RoutedEventArgs e)
+        {
+            new VersionWindow().Show();
         }
         
     }

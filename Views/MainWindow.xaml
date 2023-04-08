@@ -13,9 +13,15 @@
                 <Separator/>
                 <MenuItem Header="_Exit" Click="MenuItemExit_Click" />
             </MenuItem>
+            <MenuItem Header="_CMusic">
+                <MenuItem Header="_Version" Click="MenuItemVersion_Click"/>
+            </MenuItem>
         </Menu>
         <Grid DockPanel.Dock="Bottom" Height="25" VerticalAlignment="Bottom">
             <Label x:Name="titleSongLabel"/>
+        </Grid>
+        <Grid DockPanel.Dock="Bottom" Height="25" VerticalAlignment="Bottom">
+            <Slider></Slider>
         </Grid>
 
     </DockPanel>
